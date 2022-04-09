@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <h2>This is Home</h2>
-            <h2>Current user is: { user? user.displayName : 'Nobody'}</h2>
+            <h2>Current user: { user? user.displayName : 'Nobody'}</h2>
             <img src={user?.photoURL} alt="" />
         </div>
     );
